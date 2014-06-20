@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE6EBB9C195414D2001CDE7F /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6EBB9B195414D2001CDE7F /* example.png */; };
 		CEA39885186C288C00189044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA39884186C288C00189044 /* Foundation.framework */; };
 		CEA39887186C288C00189044 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA39886186C288C00189044 /* CoreGraphics.framework */; };
 		CEA39889186C288C00189044 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA39888186C288C00189044 /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE6EBB9B195414D2001CDE7F /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
 		CEA39881186C288C00189044 /* TestCustomLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCustomLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA39884186C288C00189044 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEA39886186C288C00189044 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,9 +88,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE6EBB99195414D2001CDE7F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CE6EBB9A195414D2001CDE7F /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CE6EBB9A195414D2001CDE7F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE6EBB9B195414D2001CDE7F /* example.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		CEA39878186C288B00189044 = {
 			isa = PBXGroup;
 			children = (
+				CE6EBB99195414D2001CDE7F /* Resource */,
 				CEA398B3186C28CA00189044 /* Classes */,
 				CEA3988A186C288C00189044 /* TestCustomLabel */,
 				CEA398A3186C288C00189044 /* TestCustomLabelTests */,
@@ -271,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6EBB9C195414D2001CDE7F /* example.png in Resources */,
 				CEA3988F186C288C00189044 /* InfoPlist.strings in Resources */,
 				CEA39897186C288C00189044 /* Images.xcassets in Resources */,
 			);
